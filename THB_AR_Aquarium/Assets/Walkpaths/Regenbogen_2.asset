@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c63d15506dd69f48a388fc9c4976162, type: 3}
+  m_Name: Regenbogen_2
+  m_EditorClassIdentifier: 
+  Locations:
+  - Latitude: 52.410326
+    Longitude: 12.53876
+    Altitude: 0
+    AltitudeMode: 0
+    Label: 
+  - Latitude: 52.409801
+    Longitude: 12.537518
+    Altitude: 0
+    AltitudeMode: 0
+    Label: 
+  - Latitude: 52.411495
+    Longitude: 12.53554
+    Altitude: 0
+    AltitudeMode: 0
+    Label: 
+  - Latitude: 52.412235
+    Longitude: 12.53734
+    Altitude: 0
+    AltitudeMode: 0
+    Label: 
+  - Latitude: 52.412181
+    Longitude: 12.538131
+    Altitude: 0
+    AltitudeMode: 0
+    Label: 
+  - Latitude: 52.410808
+    Longitude: 12.539799
+    Altitude: 0
+    AltitudeMode: 0
+    Label: 
+  - Latitude: 52.410326
+    Longitude: 12.53876
+    Altitude: 0
+    AltitudeMode: 0
+    Label: 
+  SplineType: 0
+  Alpha: 0.5
+  SceneViewScale: 1
