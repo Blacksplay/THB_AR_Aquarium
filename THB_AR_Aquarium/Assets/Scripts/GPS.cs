@@ -12,10 +12,10 @@ public class GPS : MonoBehaviour
     public bool gps;
     public GameObject OutOfPlace;
 
-    public float right  = 12.53999f;
-    public float left   = 12.53505f;
-    public float top    = 54.41244f;
-    public float bottom = 54.41019f;
+    public float right = 12.53999f;
+    public float left = 12.53505f;
+    public float top = 52.41244f;
+    public float bottom = 52.41019f;
 
     private void Start()
     {
@@ -31,13 +31,13 @@ public class GPS : MonoBehaviour
             latitude = Input.location.lastData.latitude;
             longitude = Input.location.lastData.longitude;
 
-            if(bottom < latitude && latitude < top && left < longitude && longitude < right)
+            if (bottom <= latitude || latitude >= top || left >= longitude || longitude >= right)
             {
-                OutOfPlace.SetActive(false);
+                OutOfPlace.SetActive(true);
             }
             else
             {
-                OutOfPlace.SetActive(true);
+                OutOfPlace.SetActive(false);
             }
         }
     }

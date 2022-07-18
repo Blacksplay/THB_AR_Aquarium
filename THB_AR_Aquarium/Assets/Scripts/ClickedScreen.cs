@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ClickedScreen : MonoBehaviour
 {
     [SerializeField]
-    public ClickedObject clickedObject;
+    public ClickedObject clickedObject =null;
 
     [SerializeField]
     public Text Boxtext;
@@ -23,6 +23,8 @@ public class ClickedScreen : MonoBehaviour
     public Sprite Herz_Rot;
     public Sprite Herz_Gelb;
     public Sprite Herz_Gruen;
+
+
 
     // Update is called once per frame
     void Update()
