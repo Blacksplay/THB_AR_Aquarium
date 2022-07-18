@@ -815,7 +815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69fcceb17bc6ed34f9ee2fde8857b8f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickedObject: {fileID: 0}
+  clickedObject: {fileID: 2000111396}
   Boxtext: {fileID: 591137013}
   ProzentText: {fileID: 1693044496}
   FeedButton: {fileID: 591857471}
@@ -904,9 +904,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObjName: Sprinkly
   Health: 100
-  ID: 1
+  ID: 4
   hungry: 1
   changeovertime: 0.5
+  Farbe: {fileID: 2100000, guid: 3c06edc55ffed5f439fba424a9b9416a, type: 2}
+  color: {r: 0.20392157, g: 0.70980394, b: 0.5529412, a: 0}
 --- !u!65 &487669887
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -981,12 +983,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 72efdeede831205409a550116e139555,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.395361
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 72efdeede831205409a550116e139555,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.9974761
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 72efdeede831205409a550116e139555,
         type: 3}
@@ -1418,9 +1420,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObjName: Flipsy
   Health: 100
-  ID: 1
+  ID: 5
   hungry: 1
   changeovertime: 0.5
+  Farbe: {fileID: 2100000, guid: a081aa37f8c32c84ba320b396a2b982d, type: 2}
+  color: {r: 0.20392157, g: 0.70980394, b: 0.5529412, a: 0}
 --- !u!65 &549331577
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1846,6 +1850,8 @@ MonoBehaviour:
   ID: 1
   hungry: 1
   changeovertime: 0.5
+  Farbe: {fileID: 2100000, guid: 9b1c4410c458153419a139f17ccbe74f, type: 2}
+  color: {r: 0.20392157, g: 0.70980394, b: 0.5529412, a: 0}
 --- !u!65 &602380788
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2578,9 +2584,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObjName: Speedy
   Health: 100
-  ID: 1
+  ID: 6
   hungry: 1
   changeovertime: 0.5
+  Farbe: {fileID: 2100000, guid: 197fd8e1d72393d43952353670a25726, type: 2}
+  color: {r: 0.20392157, g: 0.70980394, b: 0.5529412, a: 0}
 --- !u!65 &766222255
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2991,6 +2999,8 @@ MonoBehaviour:
   ID: 20
   hungry: 1
   changeovertime: 0.5
+  Farbe: {fileID: 0}
+  color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &846779007
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3287,6 +3297,8 @@ MonoBehaviour:
   ID: 2
   hungry: 1
   changeovertime: 0.7
+  Farbe: {fileID: 2100000, guid: f0a486adbe4dfe74eb7ab9351378344e, type: 2}
+  color: {r: 0.20392157, g: 0.70980394, b: 0.5529412, a: 0}
 --- !u!65 &948119482
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4323,9 +4335,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObjName: Sunny
   Health: 100
-  ID: 1
+  ID: 3
   hungry: 1
   changeovertime: 0.5
+  Farbe: {fileID: 2100000, guid: cbd51c5d9fdfd5a47bf5f93872931903, type: 2}
+  color: {r: 0.20392157, g: 0.70980394, b: 0.5529412, a: 0}
 --- !u!65 &1251889569
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5058,6 +5072,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: rainbow_body_Animation
       objectReference: {fileID: 0}
+    - target: {fileID: 2223639932434330405, guid: c0b6925407c85d2408bdd04c46c47967,
+        type: 3}
+      propertyPath: m_Animations.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2223639932434330405, guid: c0b6925407c85d2408bdd04c46c47967,
+        type: 3}
+      propertyPath: m_Animations.Array.data[1]
+      value: 
+      objectReference: {fileID: 8993902097722301239, guid: c0b6925407c85d2408bdd04c46c47967,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0b6925407c85d2408bdd04c46c47967, type: 3}
 --- !u!4 &1404121718 stripped
@@ -7419,6 +7444,56 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Screen: {fileID: 1803448543}
+--- !u!1 &2000111395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2000111397}
+  - component: {fileID: 2000111396}
+  m_Layer: 0
+  m_Name: Default
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2000111396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000111395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d91125fc63cb844688d91b98fb76454, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjName: Deafault
+  Health: 0
+  ID: 99
+  hungry: 0
+  changeovertime: 0
+  Farbe: {fileID: 0}
+  color: {r: 0, g: 0, b: 0, a: 0}
+--- !u!4 &2000111397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000111395}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2016280035
 PrefabInstance:
   m_ObjectHideFlags: 0
