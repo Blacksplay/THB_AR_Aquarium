@@ -16,7 +16,7 @@ public class ClickedObject : MonoBehaviour
     public double changeovertime = 1;
 
 
-    public Material Farbe;
+    public Material material;
 
     public Color color;
 
@@ -38,15 +38,15 @@ public class ClickedObject : MonoBehaviour
 
         if (Health < 25)
         {
-            Farbe.color = Color.red;
+            material.color = Color.red;
         }
         if (Health < 75 && Health > 25)
         {
-            Farbe.color = Color.yellow;
+            material.color = Color.yellow;
         }
         if (Health > 75)
         {
-            Farbe.color = color;
+            material.color = color;
         }
 
     }

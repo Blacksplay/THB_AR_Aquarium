@@ -907,7 +907,7 @@ MonoBehaviour:
   ID: 4
   hungry: 1
   changeovertime: 0.5
-  Farbe: {fileID: 2100000, guid: 3c06edc55ffed5f439fba424a9b9416a, type: 2}
+  material: {fileID: 2100000, guid: 3c06edc55ffed5f439fba424a9b9416a, type: 2}
   color: {r: 0.20392157, g: 0.70980394, b: 0.5529412, a: 0}
 --- !u!65 &487669887
 BoxCollider:
@@ -1423,7 +1423,7 @@ MonoBehaviour:
   ID: 5
   hungry: 1
   changeovertime: 0.5
-  Farbe: {fileID: 2100000, guid: a081aa37f8c32c84ba320b396a2b982d, type: 2}
+  material: {fileID: 2100000, guid: a081aa37f8c32c84ba320b396a2b982d, type: 2}
   color: {r: 0.20392157, g: 0.70980394, b: 0.5529412, a: 0}
 --- !u!65 &549331577
 BoxCollider:
@@ -1850,7 +1850,7 @@ MonoBehaviour:
   ID: 1
   hungry: 1
   changeovertime: 0.5
-  Farbe: {fileID: 2100000, guid: 9b1c4410c458153419a139f17ccbe74f, type: 2}
+  material: {fileID: 2100000, guid: 9b1c4410c458153419a139f17ccbe74f, type: 2}
   color: {r: 0.20392157, g: 0.70980394, b: 0.5529412, a: 0}
 --- !u!65 &602380788
 BoxCollider:
@@ -2587,7 +2587,7 @@ MonoBehaviour:
   ID: 6
   hungry: 1
   changeovertime: 0.5
-  Farbe: {fileID: 2100000, guid: 197fd8e1d72393d43952353670a25726, type: 2}
+  material: {fileID: 2100000, guid: 197fd8e1d72393d43952353670a25726, type: 2}
   color: {r: 0.20392157, g: 0.70980394, b: 0.5529412, a: 0}
 --- !u!65 &766222255
 BoxCollider:
@@ -2848,7 +2848,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LocationOptions:
     LocationInput:
-      LocationInputType: 0
+      LocationInputType: 1
       LocationData: {fileID: 0}
       Location:
         Latitude: 52.410338
@@ -2999,7 +2999,7 @@ MonoBehaviour:
   ID: 20
   hungry: 1
   changeovertime: 0.5
-  Farbe: {fileID: 0}
+  material: {fileID: 0}
   color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &846779007
 BoxCollider:
@@ -3297,7 +3297,7 @@ MonoBehaviour:
   ID: 2
   hungry: 1
   changeovertime: 0.7
-  Farbe: {fileID: 2100000, guid: f0a486adbe4dfe74eb7ab9351378344e, type: 2}
+  material: {fileID: 2100000, guid: f0a486adbe4dfe74eb7ab9351378344e, type: 2}
   color: {r: 0.20392157, g: 0.70980394, b: 0.5529412, a: 0}
 --- !u!65 &948119482
 BoxCollider:
@@ -4338,7 +4338,7 @@ MonoBehaviour:
   ID: 3
   hungry: 1
   changeovertime: 0.5
-  Farbe: {fileID: 2100000, guid: cbd51c5d9fdfd5a47bf5f93872931903, type: 2}
+  material: {fileID: 2100000, guid: cbd51c5d9fdfd5a47bf5f93872931903, type: 2}
   color: {r: 0.20392157, g: 0.70980394, b: 0.5529412, a: 0}
 --- !u!65 &1251889569
 BoxCollider:
@@ -7478,7 +7478,7 @@ MonoBehaviour:
   ID: 99
   hungry: 0
   changeovertime: 0
-  Farbe: {fileID: 0}
+  material: {fileID: 0}
   color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!4 &2000111397
 Transform:
