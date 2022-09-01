@@ -31,14 +31,14 @@ public class GPS : MonoBehaviour
             latitude = Input.location.lastData.latitude;
             longitude = Input.location.lastData.longitude;
 
-            if (bottom <= latitude || latitude >= top || left >= longitude || longitude >= right)
+            /*if (bottom <= latitude || latitude >= top || left >= longitude || longitude >= right)
             {
                 OutOfPlace.SetActive(true);
             }
             else
             {
                 OutOfPlace.SetActive(false);
-            }
+            }*/
         }
     }
 
