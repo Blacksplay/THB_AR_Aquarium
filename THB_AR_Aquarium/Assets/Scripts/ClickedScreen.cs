@@ -12,7 +12,7 @@ public class ClickedScreen : MonoBehaviour
     public Text Boxtext;
    
     [SerializeField]
-    public Text ProzentText;
+    public Text Life;
 
     [SerializeField]
     public Button FeedButton;
@@ -29,7 +29,7 @@ public class ClickedScreen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ProzentText.text = ((int)clickedObject.Health).ToString() + "%";
+        Life.text = ((int)clickedObject.Health).ToString() + "%";
 
         if (clickedObject.Health< 25)
         { 
