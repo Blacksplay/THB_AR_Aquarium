@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Unity.Netcode;
 
-public class ClickedObject : MonoBehaviour
+public class ClickedObject : NetworkBehaviour
 {
+
+    //Parameter der Fische
     [SerializeField]
     public string ObjName;
 
@@ -22,6 +25,7 @@ public class ClickedObject : MonoBehaviour
 
     void Update()
     {
+        //Health ist immer ein Wert zwischen 1 und 100
         if(Health<0)
         {
             Health = 0;
@@ -31,11 +35,13 @@ public class ClickedObject : MonoBehaviour
             Health = 100;
         }
 
+        //aktiviert den Hunger
         if (hungry)
         {
             hunger();
         }
 
+        //setzt die Farbe des Herz-Sprites ja nach Hungerlevel
         if (Health < 25)
         {
             Farbe.color = Color.red;
@@ -51,7 +57,7 @@ public class ClickedObject : MonoBehaviour
 
     }
 
-
+    // Verfall des Hungers
     private void hunger()
     {
 

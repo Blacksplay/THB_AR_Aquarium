@@ -12,6 +12,7 @@ public class GPS : MonoBehaviour
     public bool gps;
     public GameObject OutOfPlace;
 
+    //Koordinaten die das Gebiet eingrenzen
     public float right = 12.53999f;
     public float left = 12.53505f;
     public float top = 52.41244f;
@@ -24,6 +25,7 @@ public class GPS : MonoBehaviour
         StartCoroutine(StartLocationService());
     }
 
+    //Due Update Funktion setzt die GPS Koordianten und testet ob 
     private void Update()
     {
         if(gps = true)
@@ -31,17 +33,19 @@ public class GPS : MonoBehaviour
             latitude = Input.location.lastData.latitude;
             longitude = Input.location.lastData.longitude;
 
-            if (bottom <= latitude || latitude >= top || left >= longitude || longitude >= right)
+            /*if (bottom <= latitude || latitude >= top || left >= longitude || longitude >= right)
             {
                 OutOfPlace.SetActive(true);
             }
             else
             {
                 OutOfPlace.SetActive(false);
-            }
+            }*/
         }
     }
 
+
+    //Die Funktion testen ob die Vorraussetzungen für GPS gegeben sind
     private IEnumerator StartLocationService()
     {
         if(!Input.location.isEnabledByUser)

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Infoscreen : MonoBehaviour
 {
+    // Parameter von Infoscreens (verworfen)
     [SerializeField]
     public string Name;
 

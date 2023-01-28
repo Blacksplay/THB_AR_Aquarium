@@ -21,6 +21,7 @@ public class Clickability : MonoBehaviour
 
     private Vector2 touchposition = default;
 
+    //sorgt dafür dass beim deaktivieren eines panels auch alles Children deaktiviert werden
     public void deactivatePanel()
     { 
         for (int i = 0; i < panel.transform.childCount; i++)
@@ -32,6 +33,7 @@ public class Clickability : MonoBehaviour
         panel.SetActive(false);
     }
 
+    //sorgt dafür dass beim aktivieren eines panels auch alles Children aktiviert werden
     public void activatePanel()
     {
         for (int i = 0; i < panel.transform.childCount; i++)
@@ -44,7 +46,7 @@ public class Clickability : MonoBehaviour
     }
 
 
-    // Update is called once per frame
+    // enthält die Funktion um mithilfe von Raycast Fische auszuwählen
     void Update()
     {
         if(Input.touchCount > 0)

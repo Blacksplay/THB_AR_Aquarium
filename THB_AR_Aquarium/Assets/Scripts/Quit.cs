@@ -7,6 +7,7 @@ public class Quit : MonoBehaviour
 
     public GameObject Screen;
 
+    //schließt geöffnete Infoscreens
     public void close()
     {
         Screen.SetActive(false);

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PanelEnable : MonoBehaviour
 {
+    //verforfenes Skript
     private void OnEnable()
     {
         for (int i = 0; i < transform.childCount; i++)

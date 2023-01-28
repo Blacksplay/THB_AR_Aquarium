@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Websites : MonoBehaviour
 {
+    // Weblinks für Infopunkte
     public void Mensa()
     {
         Application.OpenURL("https://www.studentenwerk-potsdam.de/essen/speiseplaene/");

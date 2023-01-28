@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ClickedScreen : MonoBehaviour
 {
     [SerializeField]
-    public ClickedObject clickedObject =null;
+    public ClickedObject clickedObject;
 
     [SerializeField]
     public Text Boxtext;
@@ -29,6 +29,7 @@ public class ClickedScreen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Farbe des Fisch-Modells je nach Hungerlevel anpassen
         Life.text = ((int)clickedObject.Health).ToString() + "%";
 
         if (clickedObject.Health< 25)
